@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_calendar"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:orderInCategory="1"
+        android:title="@string/calendar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/stat_notify_voicemail"
+        android:orderInCategory="2"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_13"
+        android:icon="@android:drawable/stat_notify_voicemail"
+        android:orderInCategory="3"
+        android:title="日常心理学"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_10"
+        android:icon="@android:drawable/stat_notify_voicemail"
+        android:orderInCategory="3"
+        android:title="互联网安全"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_6"
+        android:icon="@android:drawable/stat_notify_voicemail"
+        android:orderInCategory="3"
+        android:title="财经日报"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_2"
+        android:icon="@android:drawable/stat_notify_voicemail"
+        android:orderInCategory="3"
+        android:title="游戏日报"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_12"
+        android:icon="@android:drawable/stat_notify_voicemail"
+        android:orderInCategory="3"
+        android:title="用户推荐日报"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_4"
+        android:icon="@android:drawable/stat_notify_voicemail"
+        android:orderInCategory="3"
+        android:title="设计日报"
+        app:showAsAction="never" />
+</menu>

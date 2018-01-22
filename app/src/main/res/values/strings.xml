@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">真·知乎日报</string>
+    <string name="search">Search</string>
+    <string name="calendar">calendar</string>
+    <string name="news_preview_image">图片预览</string>
+    <string name="share_this_news">分享</string>
+</resources>
