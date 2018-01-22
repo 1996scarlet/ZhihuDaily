@@ -4,7 +4,6 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.app.AppCompatDelegate
 import com.tbruyelle.rxpermissions2.RxPermissions
 import hit.scarlet.sun.daily.HttpAround.ZhihuNews
 import retrofit2.Retrofit
