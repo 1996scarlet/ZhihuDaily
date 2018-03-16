@@ -24,4 +24,5 @@ class InfoAdapter(context: Context, override val layoutId: Int = R.layout.recycl
         else
             Glide.with(context).load(R.mipmap.ic_launcher_round).into(holder.getView(R.id.thumbnail_image) as ImageView)
     }
+
 }

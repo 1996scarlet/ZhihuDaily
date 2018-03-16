@@ -25,7 +25,7 @@ object JsonParse {
             responseDate = result.getString("date")
             val stories = result.getJSONArray("stories")
 
-            for (i in 0..stories.length() - 1) {
+            for (i in 0 until stories.length()) {
                 val question = Question()
                 question.id = stories.getJSONObject(i).getInt("id")
                 question.title = stories.getJSONObject(i).getString("title")
@@ -47,7 +47,7 @@ object JsonParse {
             val result = JSONObject(response)
             val stories = result.getJSONArray("stories")
 
-            for (i in 0..stories.length() - 1) {
+            for (i in 0 until stories.length()) {
                 val question = Question()
                 question.id = stories.getJSONObject(i).getInt("id")
                 question.title = stories.getJSONObject(i).getString("title")
